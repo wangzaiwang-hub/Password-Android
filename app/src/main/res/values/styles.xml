@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 卡片样式 -->
+    <style name="CardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="contentPadding">20dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    
+    <!-- 平台卡片样式 -->
+    <style name="PlatformCard" parent="CardStyle">
+        <item name="cardBackgroundColor">@color/platform_card</item>
+    </style>
+    
+    <!-- 账号卡片样式 -->
+    <style name="AccountCard" parent="CardStyle">
+        <item name="cardBackgroundColor">@color/account_card</item>
+    </style>
+    
+    <!-- 密码卡片样式 -->
+    <style name="PasswordCard" parent="CardStyle">
+        <item name="cardBackgroundColor">@color/password_card</item>
+    </style>
+    
+    <!-- 设置卡片样式 -->
+    <style name="SettingCard" parent="CardStyle">
+        <item name="cardBackgroundColor">@color/setting_card</item>
+    </style>
+    
+    <!-- 搜索卡片样式 -->
+    <style name="SearchCard" parent="CardStyle">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+    
+    <!-- 用户信息卡片样式 -->
+    <style name="UserInfoCard" parent="CardStyle">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardBackgroundColor">@color/primary_container</item>
+    </style>
+    
+    <!-- 密码列表项卡片样式 -->
+    <style name="PasswordItemCard" parent="CardStyle">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">4dp</item>
+    </style>
+    
+    <!-- 按钮样式 -->
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">8dp</item>
+        <item name="backgroundTint">@color/primary</item>
+    </style>
+    
+    <style name="SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- 文本输入框样式 -->
+    <style name="TextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    
+    <!-- 文本样式 -->
+    <style name="HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+    
+    <style name="BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+    
+    <style name="BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    
+    <style name="LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    
+    <style name="BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    
+    <!-- 密码文本样式 -->
+    <style name="PasswordText" parent="BodyMedium">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    
+    <!-- 图标样式 -->
+    <style name="PlatformIcon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    
+    <style name="VisibilityIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <style name="ActionIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:tint">?attr/colorOnSurfaceVariant</item>
+    </style>
+    
+    <!-- 密码强度指示器样式 -->
+    <style name="PasswordStrength">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:progressDrawable">@drawable/password_strength_progress</item>
+    </style>
+    
+    <!-- Chip样式 -->
+    <style name="FilterChip" parent="Widget.Material3.Chip.Filter">
+        <item name="android:layout_margin">4dp</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="chipMinHeight">32dp</item>
+    </style>
+    
+    <!-- 分割线样式 -->
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorOutlineVariant</item>
+        <item name="android:layout_marginVertical">8dp</item>
+    </style>
+    
+    <!-- 头像样式 -->
+    <style name="UserAvatar">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/circle_background</item>
+    </style>
+    
+    <!-- 设置项样式 -->
+    <style name="SettingItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">密码管家</string>
+    
+    <!-- 底部导航 -->
+    <string name="nav_search">查询</string>
+    <string name="nav_record">记录</string>
+    <string name="nav_profile">我的</string>
+    
+    <!-- 记录页面 -->
+    <string name="record_title">添加密码</string>
+    <string name="platform_name">平台名称</string>
+    <string name="login_method">登录方式</string>
+    <string name="account">绑定账号</string>
+    <string name="password">密码</string>
+    <string name="save">保存</string>
+    
+    <!-- 查询页面 -->
+    <string name="search_hint">搜索平台、账号...</string>
+    <string name="all">全部</string>
+    <string name="frequently_used">常用</string>
+    <string name="recently_added">最近添加</string>
+    
+    <!-- 我的页面 -->
+    <string name="export_passwords">导出密码本</string>
+    <string name="custom_background">自定义背景</string>
+    <string name="settings">设置</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="help_feedback">帮助与反馈</string>
+    <string name="about">关于</string>
+    
+    <!-- 通用 -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="copy_success">密码已复制到剪贴板</string>
+</resources>

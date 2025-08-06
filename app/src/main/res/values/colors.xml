@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 - 现代蓝色系 -->
+    <color name="primary">#4F46E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#EEF2FF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+    
+    <!-- 设计稿专用颜色 -->
+    <color name="primary_blue">#4A90E2</color>
+    <color name="primary_blue_dark">#357ABD</color>
+    <color name="background_gray">#F5F5F5</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    <color name="border_default">#E0E0E0</color>
+    <color name="border_focused">#4A90E2</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="shadow_color">#1A000000</color>
+    
+    <!-- 次要色调 - 青色系 -->
+    <color name="secondary">#06B6D4</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#ECFEFF</color>
+    <color name="on_secondary_container">#164E63</color>
+    
+    <!-- 背景色 - 更柔和的浅色 -->
+    <color name="background">#F8FAFC</color>
+    <color name="on_background">#0F172A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#1E293B</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="on_surface_variant">#64748B</color>
+    
+    <!-- 功能色块 - 更温和的色彩 -->
+    <color name="password_card">#F0F9FF</color>    <!-- 密码卡片 - 浅蓝 -->
+    <color name="platform_card">#EFF6FF</color>    <!-- 平台卡片 - 浅蓝 -->
+    <color name="account_card">#FFFBEB</color>     <!-- 账号卡片 - 浅黄 -->
+    <color name="setting_card">#FAF5FF</color>     <!-- 设置卡片 - 浅紫 -->
+    
+    <!-- 状态色 -->
+    <color name="error">#DC2626</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="success">#059669</color>
+    <color name="warning">#D97706</color>
+    <color name="info">#2563EB</color>
+    
+    <!-- 密码强度色 -->
+    <color name="password_weak">#EF4444</color>
+    <color name="password_medium">#F59E0B</color>
+    <color name="password_strong">#10B981</color>
+    
+    <!-- 边框和分割线 -->
+    <color name="divider">#E2E8F0</color>
+    <color name="outline">#CBD5E1</color>
+    <color name="outline_variant">#E2E8F0</color>
+    
+    <!-- 透明度 -->
+    <color name="black_alpha_50">#80000000</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="primary_alpha_10">#1A4F46E5</color>
+    <color name="primary_alpha_20">#334F46E5</color>
+</resources>
